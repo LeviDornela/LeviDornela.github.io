@@ -46,6 +46,6 @@ function enviarWhatsApp() {
     }
   });
   mensagem += `Total: R$ ${total.toFixed(2)}`;
-  const telefone = "85989080542"; // Coloque seu número com código do país
+  const telefone = "5585989080542"; // Coloque seu número com código do país
   window.open(`https://wa.me/${telefone}?text=${mensagem}`, '_blank');
 }
